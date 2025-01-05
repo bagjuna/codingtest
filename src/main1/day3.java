@@ -13,7 +13,6 @@ public class day3 {
     static ArrayList<Integer>[] A;
     static boolean [] visited;
     static int count = 0;
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int M = Integer.parseInt(br.readLine());
@@ -32,6 +31,7 @@ public class day3 {
             A[num1].add(num2);
             A[num2].add(num1);
         }
+
         DFS(1);
         System.out.println(count-1);
     }

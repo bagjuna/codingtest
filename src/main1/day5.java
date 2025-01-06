@@ -13,6 +13,7 @@ public class day5 {
     static ArrayList<Integer> A[];
     static int N;
     static int root;
+    // 트리
     static int[] cnt;
 
     public static void main(String[] args) throws IOException {

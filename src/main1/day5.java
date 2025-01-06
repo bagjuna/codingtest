@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 /**
- *  15681번 트리와 쿼리
+ * 15681번 트리와 쿼리
  */
 public class day5 {
     static ArrayList<Integer> A[];

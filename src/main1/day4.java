@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 /**
- *  2667번 단지 번호 붙이기
+ * 2667번 단지 번호 붙이기
  */
 public class day4 {
     static int[][] arr;

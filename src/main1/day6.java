@@ -11,6 +11,7 @@ public class day6 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     static HashMap<Character, int[]> map = new HashMap<>();
+
     static StringTokenizer st;
     public static void main(String[] args) throws IOException {
         br = new BufferedReader(new InputStreamReader(System.in));

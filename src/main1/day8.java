@@ -19,6 +19,7 @@ public class day8 {
             int row = Integer.parseInt(st.nextToken());
             int col = Integer.parseInt(st.nextToken());
             int n = Integer.parseInt(st.nextToken());
+
             arr = new boolean[col][row];
 
             for (int j = 0; j < n; j++) {

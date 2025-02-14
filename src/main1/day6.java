@@ -18,7 +18,9 @@ public class day6 {
         br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
         int strLength = str.length();
+
         int N = Integer.parseInt(br.readLine());
+
         char[] charArray = str.toCharArray();
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());

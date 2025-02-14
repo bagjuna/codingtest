@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 /**
  * 16139번 인간-컴퓨터 상호작용
  */
+
 public class day6 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

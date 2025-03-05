@@ -3,7 +3,9 @@ package main1;
 import java.util.HashMap;
 import java.util.Scanner;
 
-
+/**
+ * 4195번 친구 네트워크
+ */
 public class day12 {
 
     static int[] parent = new int[200002];

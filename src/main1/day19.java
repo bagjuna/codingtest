@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
  */
 public class day19 {
     static int N;
-    static ArrayList<Node>[] nodes;
+    static List<Node>[] nodes;
     static boolean[] visited;
     static int max;
 

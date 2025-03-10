@@ -7,9 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+/**
+ * 11725번
+ * 트리의 부모 찾기
+ */
 public class day18 {
     static int[] parent;
-    static List<Integer> numList[];
+    static ArrayList<Integer> numList[];
 
     static boolean[] visited ;
     public static void main(String[] args) throws IOException {

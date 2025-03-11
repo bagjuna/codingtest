@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  */
 public class day18 {
     static int[] parent;
-    static List<Integer> numList[];
+    static List<Integer>[] numList;
 
     static boolean[] visited ;
     public static void main(String[] args) throws IOException {

@@ -17,7 +17,7 @@ public class day20 {
     static int rowSize;
 
     public static void main(String[] args) throws IOException {
-
+        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
@@ -38,7 +38,7 @@ public class day20 {
             }
             for (int j = 0; j < colSize; j++) {
                 for (int k = 0; k < rowSize; k++) {
-                    if (farm[j][k] && !visited[j][k]) {
+                    if (farm[j][k]) {
                         if (bfs(j, k)) {
                             cnt++;
                         }
@@ -52,11 +52,15 @@ public class day20 {
     }
 
     static boolean bfs(int col, int row) {
+        boolean isTrue = false;
         if (!canVisit(col, row)) {
             return false;
+        } else {
+            farm[col][row] = false;
+            visited[col][row] = true;
+            isTrue = true;
         }
-        boolean isTrue = false;
-        visited[col][row] = true;
+
         if (canVisit(col + 1, row)) {
             isTrue = true;
             bfs(col + 1, row);

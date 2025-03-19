@@ -7,7 +7,6 @@ import java.util.StringTokenizer;
 
 public class day1 {
     public static void main(String[] args) throws IOException {
-        // 예시 파일 크기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         for (int num = 0; num < N; num++) {

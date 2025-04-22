@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 /**
  * 22864번 피로도
- * dfasfdasf
  */
 public class day24 {
 
